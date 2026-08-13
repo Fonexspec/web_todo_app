@@ -1,6 +1,7 @@
 FILEPATH = "web_app/todos.txt"
 
 
+
 def get_todos(file_path=FILEPATH):
     """ Read a text file and return the list of
     to-do items.
