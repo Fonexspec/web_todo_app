@@ -1,4 +1,4 @@
-FILEPATH = "web_app/todos.txt"
+FILEPATH = "todos.txt"
 
 
 
