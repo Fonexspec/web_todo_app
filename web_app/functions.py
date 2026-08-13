@@ -1,5 +1,6 @@
-FILEPATH = "todos.txt"
+from pathlib import Path
 
+FILEPATH = Path(__file__).parent / "todos.txt"
 
 
 def get_todos(file_path=FILEPATH):
@@ -15,6 +16,7 @@ def write_todos(todos_arg, file_path=FILEPATH):
     """ Write the to-do items list to a text file. """
     with open(file_path, "w") as file:
         file.writelines(todos_arg)
+
 
 if __name__ == "__main__":
     print("Hello")
